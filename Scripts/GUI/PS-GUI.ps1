@@ -36,6 +36,9 @@ $button4 = New-Object system.windows.Forms.Button
 $button4.Text = "Wordlist+Rules"
 $button4.Width = 142
 $button4.Height = 72
+$button4.Add_Click({
+.\WL+R-GUI.ps1
+})
 $button4.location = new-object system.drawing.point(155,130)
 $button4.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($button4)
@@ -45,6 +48,9 @@ $button4 = New-Object system.windows.Forms.Button
 $button4.Text = "Wordlist+Rules"
 $button4.Width = 142
 $button4.Height = 72
+$button4.Add_Click({
+.\WL+R-GUI.ps1
+})
 $button4.location = new-object system.drawing.point(155,130)
 $button4.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($button4)
@@ -54,6 +60,9 @@ $button6 = New-Object system.windows.Forms.Button
 $button6.Text = "Wordlist"
 $button6.Width = 142
 $button6.Height = 72
+$button6.Add_Click({
+.\WL-GUI.ps1
+})
 $button6.location = new-object system.drawing.point(154,223)
 $button6.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($button6)
@@ -63,6 +72,9 @@ $button6 = New-Object system.windows.Forms.Button
 $button6.Text = "Wordlist"
 $button6.Width = 142
 $button6.Height = 72
+$button6.Add_Click({
+.\WL-GUI.ps1
+})
 $button6.location = new-object system.drawing.point(154,223)
 $button6.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($button6)
