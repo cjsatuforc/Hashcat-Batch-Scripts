@@ -19,7 +19,7 @@ Echo 10. Back
 
 Set/P "selection="
 cls
-set /p maskid="Enter The Mask (Leave Blank For None): "
+set /p maskid="Enter The Mask (Leave Blank For None, If You Selected To Go Back Press Enter): "
 
 GoTo %selection% 2>Nul
 
@@ -111,4 +111,4 @@ timeout 4
 exit
 :10
 cls
-..\Scripts-Git\Scripts\Brute-Force\Hashcat.bat
+Hashcat.bat
