@@ -6,8 +6,4 @@ Step-By-Step Instructions:
 4. Remember To Delete/Move The output.txt File When Its Done.
 
 
-<<<<<<< HEAD
 (If You Dont Know What Hash Type You Have, You Could Use A Hash Identification Service.).
-=======
-(If You Dont Know What Hash Type You Have, You Could Use A Hash Identification Service.)
->>>>>>> b6f4846b23c21076887d27edbd2582f82f1c8757
