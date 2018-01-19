@@ -57,7 +57,7 @@ Goto Start
 
 :1
 cls
-..\Hashcat\hashcat64.exe -m 3000 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 3000 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -66,7 +66,7 @@ timeout 6
 exit
 :2
 cls
-..\Hashcat\hashcat64.exe -m 1000 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 1000 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -75,7 +75,7 @@ timeout 4
 exit
 :3
 cls
-..\Hashcat\hashcat64.exe -m 1100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 1100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -84,7 +84,7 @@ timeout 4
 exit
 :4
 cls
-..\Hashcat\hashcat64.exe -m 2100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 2100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -93,7 +93,7 @@ timeout 4
 exit
 :5
 cls
-..\Hashcat\hashcat64.exe -m 15300 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 15300 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -102,7 +102,7 @@ timeout 4
 exit
 :6
 cls
-..\Hashcat\hashcat64.exe -m 12800 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 12800 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -111,7 +111,7 @@ timeout 4
 exit
 :7
 cls
-..\Hashcat\hashcat64.exe -m 1500 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 1500 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -120,7 +120,7 @@ timeout 4
 exit
 :8
 cls
-..\Hashcat\hashcat64.exe -m 12400 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 12400 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -129,7 +129,7 @@ timeout 4
 exit
 :9
 cls
-..\Hashcat\hashcat64.exe -m 500 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 500 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -138,7 +138,7 @@ timeout 4
 exit
 :10
 cls
-..\Hashcat\hashcat64.exe -m 3200 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 3200 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -147,7 +147,7 @@ timeout 4
 exit
 :11
 cls
-..\Hashcat\hashcat64.exe -m 7400 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 7400 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -156,7 +156,7 @@ timeout 4
 exit
 :12
 cls
-..\Hashcat\hashcat64.exe -m 1800 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 1800 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -165,7 +165,7 @@ timeout 4
 exit
 :13
 cls
-..\Hashcat\hashcat64.exe -m 122 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 122 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -174,7 +174,7 @@ timeout 4
 exit
 :14
 cls
-..\Hashcat\hashcat64.exe -m 1722 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 1722 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -183,7 +183,7 @@ timeout 4
 exit
 :15
 cls
-..\Hashcat\hashcat64.exe -m 7100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 7100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -192,7 +192,7 @@ timeout 4
 exit
 :16
 cls
-..\Hashcat\hashcat64.exe -m 6300 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 6300 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -201,7 +201,7 @@ timeout 4
 exit
 :17
 cls
-..\Hashcat\hashcat64.exe -m 6700 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 6700 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -210,7 +210,7 @@ timeout 4
 exit
 :18
 cls
-..\Hashcat\hashcat64.exe -m 6400 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 6400 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -219,7 +219,7 @@ timeout 4
 exit
 :19
 cls
-..\Hashcat\hashcat64.exe -m 6500 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 6500 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -228,7 +228,7 @@ timeout 4
 exit
 :20
 cls
-..\Hashcat\hashcat64.exe -m 2400 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 2400 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -237,7 +237,7 @@ timeout 4
 exit
 :21
 cls
-..\Hashcat\hashcat64.exe -m 2410 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 2410 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -246,7 +246,7 @@ timeout 4
 exit
 :22
 cls
-..\Hashcat\hashcat64.exe -m 500 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 500 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -255,7 +255,7 @@ timeout 4
 exit
 :23
 cls
-..\Hashcat\hashcat64.exe -m 5700 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 5700 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -264,7 +264,7 @@ timeout 4
 exit
 :24
 cls
-..\Hashcat\hashcat64.exe -m 9200 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 9200 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -273,7 +273,7 @@ timeout 4
 exit
 :25
 cls
-..\Hashcat\hashcat64.exe -m 9300 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 9300 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -282,7 +282,7 @@ timeout 4
 exit
 :26
 cls
-..\Hashcat\hashcat64.exe -m 22 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 22 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -291,7 +291,7 @@ timeout 4
 exit
 :27
 cls
-..\Hashcat\hashcat64.exe -m 501 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 501 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -300,7 +300,7 @@ timeout 4
 exit
 :28
 cls
-..\Hashcat\hashcat64.exe -m 15100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 15100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -309,7 +309,7 @@ timeout 4
 exit
 :29
 cls
-..\Hashcat\hashcat64.exe -m 7000 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 7000 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -318,7 +318,7 @@ timeout 4
 exit
 :30
 cls
-..\Hashcat\hashcat64.exe -m 5800 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 5800 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -327,7 +327,7 @@ timeout 4
 exit
 :31
 cls
-..\Hashcat\hashcat64.exe -m 13800 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 13800 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -336,7 +336,7 @@ timeout 4
 exit
 :32
 cls
-..\Hashcat\hashcat64.exe -m 8100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 8100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -345,7 +345,7 @@ timeout 4
 exit
 :33
 cls
-..\Hashcat\hashcat64.exe -m 8500 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 8500 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -354,7 +354,7 @@ timeout 4
 exit
 :34
 cls
-..\Hashcat\hashcat64.exe -m 7200 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 7200 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -363,7 +363,7 @@ timeout 4
 exit
 :35
 cls
-..\Hashcat\hashcat64.exe -m 9900 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 9900 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -372,7 +372,7 @@ timeout 4
 exit
 :36
 cls
-..\Hashcat\hashcat64.exe -m 125 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 125 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls

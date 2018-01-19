@@ -22,7 +22,7 @@ Goto Start
 
 :1
 cls
-..\Hashcat\hashcat64.exe -m 15000 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+..\Hashcat\hashcat64.exe -m 15000 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
