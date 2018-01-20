@@ -11,7 +11,7 @@ Echo  2. Back
 
 Set/P "selection="
 cls
-set /p maskid="Enter The Mask (Leave Blank For None, If You Selected To Go Back Press Enter): "
+
 
 GoTo %selection% 2>Nul
 
@@ -22,6 +22,7 @@ Goto Start
 
 :1
 cls
+set /p maskid="Enter The Mask (Leave Blank For None): "
 ..\Hashcat\hashcat64.exe -m 11500 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
