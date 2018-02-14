@@ -23,7 +23,7 @@ Goto Start
 
 :1
 cls
-..\Hashcat\hashcat64.exe -m 8800 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt Wordlist\wordlist.txt
+..\Hashcat\hashcat64.exe -m 8800 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt Wordlist\wordlist.txt || (echo Error && timeout 10 && exit)
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -32,7 +32,7 @@ timeout 6
 exit
 :2
 cls
-..\Hashcat\hashcat64.exe -m 12900 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt Wordlist\wordlist.txt
+..\Hashcat\hashcat64.exe -m 12900 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt Wordlist\wordlist.txt || (echo Error && timeout 10 && exit)
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -41,7 +41,7 @@ timeout 4
 exit
 :3
 cls
-..\Hashcat\hashcat64.exe -m 12200 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt Wordlist\wordlist.txt
+..\Hashcat\hashcat64.exe -m 12200 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt Wordlist\wordlist.txt || (echo Error && timeout 10 && exit)
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -50,7 +50,7 @@ timeout 4
 exit
 :4
 cls
-..\Hashcat\hashcat64.exe -m 14600 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt Wordlist\wordlist.txt
+..\Hashcat\hashcat64.exe -m 14600 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt Wordlist\wordlist.txt || (echo Error && timeout 10 && exit)
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls

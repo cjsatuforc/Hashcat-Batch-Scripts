@@ -26,7 +26,6 @@ Echo 17. Back
 
 Set/P "selection="
 cls
-set /p maskid="Enter The Mask (Leave Blank For None): "
 
 GoTo %selection% 2>Nul
 
@@ -37,7 +36,8 @@ Goto Start
 
 :1
 cls
-..\Hashcat\hashcat64.exe -m 900 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 900 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit)
 timeout 10
 del ..\..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -46,7 +46,8 @@ timeout 6
 exit
 :2
 cls
-..\Hashcat\hashcat64.exe -m 0 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 0 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -55,7 +56,8 @@ timeout 4
 exit
 :3
 cls
-..\Hashcat\hashcat64.exe -m 5100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 5100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -64,7 +66,8 @@ timeout 4
 exit
 :4
 cls
-..\Hashcat\hashcat64.exe -m 100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit)
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -73,7 +76,8 @@ timeout 4
 exit
 :5
 cls
-..\Hashcat\hashcat64.exe -m 1300 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 1300 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -82,7 +86,8 @@ timeout 4
 exit
 :6
 cls
-..\Hashcat\hashcat64.exe -m 1400 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 1400 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -91,7 +96,8 @@ timeout 4
 exit
 :7
 cls
-..\Hashcat\hashcat64.exe -m 10800 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 10800 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -100,7 +106,8 @@ timeout 4
 exit
 :8
 cls
-..\Hashcat\hashcat64.exe -m 1700 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 1700 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -109,7 +116,8 @@ timeout 4
 exit
 :9
 cls
-..\Hashcat\hashcat64.exe -m 5000 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 5000 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -118,7 +126,8 @@ timeout 4
 exit
 :10
 cls
-..\Hashcat\hashcat64.exe -m 600 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 600 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -127,7 +136,8 @@ timeout 4
 exit
 :11
 cls
-..\Hashcat\hashcat64.exe -m 10100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 10100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -136,7 +146,8 @@ timeout 4
 exit
 :12
 cls
-..\Hashcat\hashcat64.exe -m 6000 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 6000 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -145,7 +156,8 @@ timeout 4
 exit
 :13
 cls
-..\Hashcat\hashcat64.exe -m 6100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 6100 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -154,7 +166,8 @@ timeout 4
 exit
 :14
 cls
-..\Hashcat\hashcat64.exe -m 6900 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 6900 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -163,7 +176,8 @@ timeout 4
 exit
 :15
 cls
-..\Hashcat\hashcat64.exe -m 11700 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 11700 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -172,7 +186,8 @@ timeout 4
 exit
 :16
 cls
-..\Hashcat\hashcat64.exe -m 11800 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid% 
+set /p maskid="Enter The Mask (Leave Blank For None): "
+..\Hashcat\hashcat64.exe -m 11800 -a 3 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt %maskid%  || (echo Error && timeout 10 && exit) 
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -181,5 +196,5 @@ timeout 4
 exit
 :17
 cls
-..\Scripts-Git\Scripts\Brute-Force\Hashcat.bat
+Hashcat.bat
 

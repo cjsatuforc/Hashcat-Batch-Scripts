@@ -25,7 +25,7 @@ Goto Start
 
 :1
 cls
-..\Hashcat\hashcat64.exe -m 11600 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt .\Wordlist\wordlist.txt -r ".\Rule\rules.rule"
+..\Hashcat\hashcat64.exe -m 11600 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt .\Wordlist\wordlist.txt -r ".\Rule\rules.rule" || (echo Error && timeout 10 && exit)
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -34,7 +34,7 @@ timeout 6
 exit
 :2
 cls
-..\Hashcat\hashcat64.exe -m 12500 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt .\Wordlist\wordlist.txt -r ".\Rule\rules.rule"
+..\Hashcat\hashcat64.exe -m 12500 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt .\Wordlist\wordlist.txt -r ".\Rule\rules.rule" || (echo Error && timeout 10 && exit)
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -43,7 +43,7 @@ timeout 4
 exit
 :3
 cls
-..\Hashcat\hashcat64.exe -m 13000 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt .\Wordlist\wordlist.txt -r ".\Rule\rules.rule"
+..\Hashcat\hashcat64.exe -m 13000 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt .\Wordlist\wordlist.txt -r ".\Rule\rules.rule" || (echo Error && timeout 10 && exit)
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -52,7 +52,7 @@ timeout 4
 exit
 :4
 cls
-..\Hashcat\hashcat64.exe -m 13200 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt .\Wordlist\wordlist.txt -r ".\Rule\rules.rule"
+..\Hashcat\hashcat64.exe -m 13200 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt .\Wordlist\wordlist.txt -r ".\Rule\rules.rule" || (echo Error && timeout 10 && exit)
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -61,7 +61,7 @@ timeout 4
 exit
 :5
 cls
-..\Hashcat\hashcat64.exe -m 13300 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt .\Wordlist\wordlist.txt -r ".\Rule\rules.rule"
+..\Hashcat\hashcat64.exe -m 13300 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt .\Wordlist\wordlist.txt -r ".\Rule\rules.rule" || (echo Error && timeout 10 && exit)
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
@@ -70,7 +70,7 @@ timeout 4
 exit
 :6
 cls
-..\Hashcat\hashcat64.exe -m 13600 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt .\Wordlist\wordlist.txt -r ".\Rule\rules.rule"
+..\Hashcat\hashcat64.exe -m 13600 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt .\Wordlist\wordlist.txt -r ".\Rule\rules.rule" || (echo Error && timeout 10 && exit)
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls

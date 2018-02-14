@@ -37,58 +37,58 @@ Goto Start
 
 :1
 cls
-".\Metadata\Raw Hash.bat"
+".\Metadata\Raw Hash.bat" || (echo Error && timeout 10 && exit)
 :2
 cls
-".\Metadata\Raw Hash, Salted And-Or Iterated.bat"
+".\Metadata\Raw Hash, Salted And-Or Iterated.bat" || (echo Error && timeout 10 && exit)
 :3
 cls
-".\Metadata\Raw Hash, Authenticated.bat"
+".\Metadata\Raw Hash, Authenticated.bat" || (echo Error && timeout 10 && exit)
 :4
 cls
-".\Metadata\Raw Cipher, Known-Plaintext Attack.bat"
+".\Metadata\Raw Cipher, Known-Plaintext Attack.bat" || (echo Error && timeout 10 && exit)
 :5
 cls
-".\Metadata\Generic KDF.bat"
+".\Metadata\Generic KDF.bat" || (echo Error && timeout 10 && exit)
 :6
 cls
-".\Metadata\Network Protocols.bat"
+".\Metadata\Network Protocols.bat" || (echo Error && timeout 10 && exit)
 :7
 cls
-".\Metadata\Forums, CMS, E-Commerce, Frameworks.bat"
+".\Metadata\Forums, CMS, E-Commerce, Frameworks.bat" || (echo Error && timeout 10 && exit)
 :8
 cls
-".\Metadata\Database Server.bat"
+".\Metadata\Database Server.bat" || (echo Error && timeout 10 && exit)
 :9
 cls
-".\Metadata\HTTP, SMTP, LDAP Server.bat"
+".\Metadata\HTTP, SMTP, LDAP Server.bat" || (echo Error && timeout 10 && exit)
 :10
 cls
-".\Metadata\FTP Server.bat"
+".\Metadata\FTP Server.bat" || (echo Error && timeout 10 && exit)
 :11
 cls
-".\Metadata\Checksums.bat"
+".\Metadata\Checksums.bat" || (echo Error && timeout 10 && exit)
 :12
 cls
-".\Metadata\Operating Systems.bat"
+".\Metadata\Operating Systems.bat" || (echo Error && timeout 10 && exit)
 :13
 cls
-".\Metadata\Enterprise Application Software (EAS).bat"
+".\Metadata\Enterprise Application Software (EAS).bat" || (echo Error && timeout 10 && exit)
 :14
 cls
-".\Metadata\Archives.bat"
+".\Metadata\Archives.bat" || (echo Error && timeout 10 && exit)
 :15
 cls
-".\Metadata\Backup.bat"
+".\Metadata\Backup.bat" || (echo Error && timeout 10 && exit)
 :16
 cls
-".\Metadata\Full-Disk Encryption (FDE).bat"
+".\Metadata\Full-Disk Encryption (FDE).bat" || (echo Error && timeout 10 && exit)
 :17
 cls
-".\Metadata\Documents.bat"
+".\Metadata\Documents.bat" || (echo Error && timeout 10 && exit)
 :18
 cls
-".\Metadata\Password Managers.bat"
+".\Metadata\Password Managers.bat" || (echo Error && timeout 10 && exit)
 :19
 cls
-".\Metadata\Plaintext.bat"
+".\Metadata\Plaintext.bat" || (echo Error && timeout 10 && exit)

@@ -20,7 +20,7 @@ Goto Start
 
 :1
 cls
-..\Hashcat\hashcat64.exe -m 99999 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt Wordlist\wordlist.txt
+..\Hashcat\hashcat64.exe -m 99999 -a 0 --outfile=..\Output\output.txt --outfile-format=2 ..\Input\hashes.txt Wordlist\wordlist.txt || (echo Error && timeout 10 && exit)
 timeout 10
 del ..\Hashcat\hashcat.potfile /f /q /a:a
 cls
