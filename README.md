@@ -1,6 +1,9 @@
 # Hashcat-Batch-Scripts
-Written in batch.
-It's just an interface for the program: hashcat.
+[![Github license](https://img.shields.io/github/license/Audition-CSBlock/Hashcat-Batch-Scripts.svg?style=flat-square)](https://github.com/Audition-CSBlock/Hashcat-Batch-Scripts/blob/master/LICENSE)
+[![Github latest release](https://img.shields.io/github/tag/Audition-CSBlock/Hashcat-Batch-Scripts.svg?style=flat-square)](https://github.com/Audition-CSBlock/Hashcat-Batch-Scripts/releases)  
+
+Written in batch.  
+It's just an interface for the program: hashcat.  
 
 # How-To Use
 Go into the Scripts folder
