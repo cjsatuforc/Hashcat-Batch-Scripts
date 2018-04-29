@@ -8,10 +8,10 @@ It's just an interface for the program: hashcat.
 # How-To Use
 Go into the Scripts folder  
 Paste your hashes in the input folder, the file needs to be called "hashes.txt"  
-Go back to root  
-Open the start.bat file  
+Go back to scripts  
+There you can see 3 attack-modes, click on one of them  
+Open the hashcat.bat file  
 You should now see a menu  
-Select what mode  
 Select which category your hash is in  
 And then select a hash  
 Let it run  
