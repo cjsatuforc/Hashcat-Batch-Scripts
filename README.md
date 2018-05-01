@@ -4,7 +4,7 @@
 ![Top language](https://img.shields.io/github/languages/top/Audition-CSBlock/Hashcat-Batch-Scripts.svg?style=flat-square)
 
 Written in batch.  
-It's just an interface for the program: hashcat.  
+It's just an interface for the program: hashcat, you can find the website [here](https://audition-csblock.github.io/Hashcat-Batch-Scripts/)  
 # How-To Use
 Go into the Scripts folder  
 Paste your hashes in the input folder, the file needs to be called "hashes.txt"  
